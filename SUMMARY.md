@@ -15,9 +15,9 @@
 * [⚠️ Common Issues](troubleshooting/common-issues/README.md)
   * [Page 2](troubleshooting/common-issues/page-2.md)
 
-## 2. LEARNING & TRAINING 🎓
+## LEARNING & TRAINING 🎓
 
-* [🏅 Certifications ](2.-learning-and-training/certifications/README.md)
-  * [Page 3](2.-learning-and-training/certifications/page-3.md)
-* [📚 Training Notes](2.-learning-and-training/training-notes/README.md)
-  * [Page 4](2.-learning-and-training/training-notes/page-4.md)
+* [🏅 Certifications ](learning-and-training/certifications/README.md)
+  * [Page 3](learning-and-training/certifications/page-3.md)
+* [📚 Training Notes](learning-and-training/training-notes/README.md)
+  * [Page 4](learning-and-training/training-notes/page-4.md)
