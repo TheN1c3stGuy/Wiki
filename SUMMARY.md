@@ -8,6 +8,7 @@
   * [Change SID OWNER](hardening/scripts-and-tools/change-sid-owner.md)
   * [Registry Log](hardening/scripts-and-tools/registry-log.md)
   * [Snaffler](hardening/scripts-and-tools/snaffler.md)
+  * [Powershell](hardening/scripts-and-tools/powershell.md)
 * [🗂️ GPO Master](hardening/gpo-master/README.md)
   * [Page 1](hardening/gpo-master/page-1.md)
 
