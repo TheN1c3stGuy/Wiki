@@ -8,9 +8,8 @@
   * [Change SID OWNER](hardening/scripts-and-tools/change-sid-owner.md)
   * [Registry Log](hardening/scripts-and-tools/registry-log.md)
   * [Snaffler](hardening/scripts-and-tools/snaffler.md)
-  * [Powershell](hardening/scripts-and-tools/powershell.md)
-* [🗂️ GPO Master](hardening/gpo-master/README.md)
-  * [Page 1](hardening/gpo-master/page-1.md)
+* [🗂️ GPO Master](hardening/gpo-master.md)
+* [GPO PowerShell Scripts](hardening/gpo-powershell-scripts.md)
 
 ## TROUBLESHOOTING 🔧
 
@@ -22,4 +21,5 @@
 * [🏅 Certifications ](learning-and-training/certifications/README.md)
   * [Page 3](learning-and-training/certifications/page-3.md)
 * [📚 Training Notes](learning-and-training/training-notes/README.md)
-  * [Page 4](learning-and-training/training-notes/page-4.md)
+  * [CRTP](learning-and-training/training-notes/crtp/README.md)
+    * [Powershell](learning-and-training/training-notes/crtp/powershell.md)
