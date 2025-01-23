@@ -1,5 +1,7 @@
 # Registry Log
 
+## Introduction
+
 This documentation provides an overview of the **Registry Compliance Audit Script**, its purpose, usage, and implementation details to ensure effective auditing of local registry keys across your infrastructure.
 
 {% hint style="info" %}
@@ -11,6 +13,8 @@ Without visibility into registry compliance, misconfigurations may go unnoticed,
 {% endhint %}
 
 ***
+
+## Script
 
 {% code title="RegistryComplianceChecker.ps1" %}
 ```powershell
@@ -993,7 +997,7 @@ Write-Output "Audit completed. Results exported to: $OutputCsvPath and $OutputHt
 ```
 {% endcode %}
 
-### What Does This Script Do?
+## What Does This Script Do?
 
 #### Key Functions
 
