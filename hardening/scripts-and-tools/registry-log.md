@@ -14,15 +14,15 @@ Without visibility into registry compliance, misconfigurations may go unnoticed,
 
 {% code title="RegistryComplianceChecker.ps1" %}
 ```powershell
-# Get the hostname of the computer
-$Hostname = (Get-ComputerInfo -Property CsName).CsName
+# Récupération du nom de l'ordinateur
+$Hostname = $env:COMPUTERNAME
 
-# Get the current date in yyyy-MM-dd format
-$CurrentDate = (Get-Date -Format 'yyyy-MM-dd')
+# Récupération de la date au format jour-mois-année
+$CurrentDate = (Get-Date -Format 'dd-MM-yyyy')
 
-# Output file paths for the CSV and HTML with hostname and date
-$OutputCsvPath = "C:\tools\RegistryAuditResults_$Hostname_$CurrentDate.csv"
-$OutputHtmlPath = "C:\tools\RegistryAuditResults_$Hostname_$CurrentDate.html"
+# Chemins de sortie des fichiers CSV et HTML
+$OutputCsvPath = "C:\tools\RegistryAuditResults_${Hostname}_${CurrentDate}.csv"
+$OutputHtmlPath = "C:\tools\RegistryAuditResults_${Hostname}_${CurrentDate}.html"
 
 # Configuration of registry keys with descriptions and reasons for expected values
 $RegistryKeys = @(
